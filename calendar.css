@@ -1,0 +1,46 @@
+header, header a {
+  padding: 20px;
+  font-family: sans-serif;
+  color: #003865;
+}
+
+header a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #003865;
+  color: white;
+}
+.active:hover {
+  color: #999;
+}
+
+.events {
+  padding: 20px;
+  font-family: sans-serif;
+}
+.events .fc-toolbar {
+  flex-wrap: wrap;
+}
+.events .fc-event {
+  background-color: #fff;
+}
+.events .fc .fc-list-sticky .fc-list-day > * {
+  z-index: 2;
+}
+.events a[class^=fc] {
+  color: #003865;
+}
+.events a[class^=fc]:hover {
+  color: #222;
+}
+.events div[class^=fc] {
+  font-weight: normal;
+}
+.events.list .fc-header-toolbar {
+  display: none;
+}
+
+/*# sourceMappingURL=calendar.css.map */

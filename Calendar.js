@@ -1,5 +1,6 @@
 import 'https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/index.global.min.js';
 import 'https://cdn.jsdelivr.net/npm/@fullcalendar/google-calendar@6.0.3/index.global.min.js';
+
 document.addEventListener("DOMContentLoaded", function () {
     var initialLocaleCode = 'en'; //Sets the default language
     var localeSelectorEl = document.getElementById('locale-selector');
